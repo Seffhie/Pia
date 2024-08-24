@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a2a22;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.containerimg {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #2e1a14;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-buttons button {
+    background-color: #f7e0c1;
+    color: #3a2a22;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #e6c9a6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.tickets h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #70553d;
+}
+
+.ticket-type h3 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.ticket-type p {
+    margin: 5px 0;
+}
+
+.service-fee {
+    font-size: 1rem;
+}
+
+.buy-tickets a {
+    text-decoration: none;
+}
+
+.buy-tickets button {
+    background-color: #f7e0c1;
+    color: #3a2a22;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-tickets button:hover {
+    background-color: #e6c9a6;
+}
+
+.select-tickets {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.select-tickets button {
+    background-color: #f7e0c1;
+    color: #3a2a22;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.select-tickets button:hover {
+    background-color: #e6c9a6;
+}
+.contact {
+    background-color: #3b241a;
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-info {
+    width: 30%;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.social-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.newsletter {
+    width: 40%;
+    text-align: left;
+}
+
+.newsletter h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3b241a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}

@@ -1,0 +1,310 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #fff;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #2e1a14;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-buttons button {
+    background-color: #f7e0c1;
+    color: #3a2a22;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #e6c9a6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #2e1a14;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    border-bottom: .1px solid #fff;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.menu-button {
+    background-color: #fff;
+    color: #2e1a14;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('clara.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.hero-content {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 0 0 20px 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.event-info {
+    background-color: #4c2b22;
+    padding: 60px 40px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+}
+
+.event-info h2,
+.event-info h3 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.event-card {
+    background-color: #3b241a;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.event-card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.buy-tickets {
+    background-color: #fff;
+    color: #3b241a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.about-us {
+    background-color: #2e1a14;
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+}
+
+.about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-content img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
+}
+
+.our-story {
+    flex: 1;
+}
+
+.our-story h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.our-story p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.production {
+    background-color: #4c2b22;
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+}
+
+.production .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.production h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.production h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.highlight {
+    background-color: #3b241a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    color: #fff;
+    text-align: left;
+    border: 1px solid #fff;
+}
+
+.highlight h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.highlight h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #e6b87d;
+}
+
+.highlight p {
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.contact {
+    background-color: #3b241a;
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-info {
+    width: 30%;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.social-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.newsletter {
+    width: 40%;
+    text-align: left;
+}
+
+.newsletter h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3b241a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
